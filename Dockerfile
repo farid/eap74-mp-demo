@@ -48,3 +48,4 @@ ENV JAEGER_SAMPLER_PARAM 1
 ENTRYPOINT ["./standalone.sh" ]
 CMD ["-c", "standalone-microprofile.xml", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
 # CMD ["sh", "-c", "tail -f /dev/null"]
+ 
